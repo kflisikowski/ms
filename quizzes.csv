@@ -1,0 +1,481 @@
+"Course","Student","Quiz","Score"
+"Descriptive Statistics","Alice",1,44.4
+"Descriptive Statistics","Alice",2,47.7
+"Descriptive Statistics","Alice",3,65.6
+"Descriptive Statistics","Alice",4,50.7
+"Descriptive Statistics","Alice",5,51.3
+"Descriptive Statistics","Alice",6,67.2
+"Descriptive Statistics","Alice",7,54.6
+"Descriptive Statistics","Alice",8,37.3
+"Descriptive Statistics","Alice",9,43.1
+"Descriptive Statistics","Alice",10,45.5
+"Descriptive Statistics","Alice",11,62.2
+"Descriptive Statistics","Alice",12,53.6
+"Descriptive Statistics","Bob",1,54
+"Descriptive Statistics","Bob",2,51.1
+"Descriptive Statistics","Bob",3,44.4
+"Descriptive Statistics","Bob",4,67.9
+"Descriptive Statistics","Bob",5,55
+"Descriptive Statistics","Bob",6,30.3
+"Descriptive Statistics","Bob",7,57
+"Descriptive Statistics","Bob",8,45.3
+"Descriptive Statistics","Bob",9,39.3
+"Descriptive Statistics","Bob",10,47.8
+"Descriptive Statistics","Bob",11,39.7
+"Descriptive Statistics","Bob",12,42.7
+"Descriptive Statistics","Charlie",1,43.7
+"Descriptive Statistics","Charlie",2,33.1
+"Descriptive Statistics","Charlie",3,58.4
+"Descriptive Statistics","Charlie",4,51.5
+"Descriptive Statistics","Charlie",5,38.6
+"Descriptive Statistics","Charlie",6,62.5
+"Descriptive Statistics","Charlie",7,54.3
+"Descriptive Statistics","Charlie",8,47
+"Descriptive Statistics","Charlie",9,59
+"Descriptive Statistics","Charlie",10,58.8
+"Descriptive Statistics","Charlie",11,58.2
+"Descriptive Statistics","Charlie",12,56.9
+"Descriptive Statistics","David",1,55.5
+"Descriptive Statistics","David",2,49.4
+"Descriptive Statistics","David",3,46.9
+"Descriptive Statistics","David",4,46.2
+"Descriptive Statistics","David",5,43.1
+"Descriptive Statistics","David",6,47.9
+"Descriptive Statistics","David",7,37.3
+"Descriptive Statistics","David",8,71.7
+"Descriptive Statistics","David",9,62.1
+"Descriptive Statistics","David",10,38.8
+"Descriptive Statistics","David",11,46
+"Descriptive Statistics","David",12,45.3
+"Descriptive Statistics","Eve",1,57.8
+"Descriptive Statistics","Eve",2,49.2
+"Descriptive Statistics","Eve",3,52.5
+"Descriptive Statistics","Eve",4,49.7
+"Descriptive Statistics","Eve",5,49.6
+"Descriptive Statistics","Eve",6,63.7
+"Descriptive Statistics","Eve",7,47.7
+"Descriptive Statistics","Eve",8,65.2
+"Descriptive Statistics","Eve",9,34.5
+"Descriptive Statistics","Eve",10,55.8
+"Descriptive Statistics","Eve",11,51.2
+"Descriptive Statistics","Eve",12,52.2
+"Descriptive Statistics","Frank",1,53.8
+"Descriptive Statistics","Frank",2,45
+"Descriptive Statistics","Frank",3,46.7
+"Descriptive Statistics","Frank",4,39.8
+"Descriptive Statistics","Frank",5,39.3
+"Descriptive Statistics","Frank",6,53
+"Descriptive Statistics","Frank",7,54.5
+"Descriptive Statistics","Frank",8,50.5
+"Descriptive Statistics","Frank",9,59.2
+"Descriptive Statistics","Frank",10,70.5
+"Descriptive Statistics","Frank",11,45.1
+"Descriptive Statistics","Frank",12,26.9
+"Descriptive Statistics","Grace",1,60.1
+"Descriptive Statistics","Grace",2,42.9
+"Descriptive Statistics","Grace",3,43.1
+"Descriptive Statistics","Grace",4,60.3
+"Descriptive Statistics","Grace",5,47.2
+"Descriptive Statistics","Grace",6,37.8
+"Descriptive Statistics","Grace",7,51.8
+"Descriptive Statistics","Grace",8,48.6
+"Descriptive Statistics","Grace",9,50.1
+"Descriptive Statistics","Grace",10,53.9
+"Descriptive Statistics","Grace",11,46.3
+"Descriptive Statistics","Grace",12,56.4
+"Descriptive Statistics","Isaac",1,47.8
+"Descriptive Statistics","Isaac",2,53.3
+"Descriptive Statistics","Isaac",3,61
+"Descriptive Statistics","Isaac",4,54.4
+"Descriptive Statistics","Isaac",5,46.7
+"Descriptive Statistics","Isaac",6,61.5
+"Descriptive Statistics","Isaac",7,59.9
+"Descriptive Statistics","Isaac",8,55.5
+"Descriptive Statistics","Isaac",9,52.4
+"Descriptive Statistics","Isaac",10,43.7
+"Descriptive Statistics","Isaac",11,63.6
+"Descriptive Statistics","Isaac",12,44
+"Descriptive Statistics","Jack",1,71.9
+"Descriptive Statistics","Jack",2,65.3
+"Descriptive Statistics","Jack",3,47.6
+"Descriptive Statistics","Jack",4,39.7
+"Descriptive Statistics","Jack",5,42.9
+"Descriptive Statistics","Jack",6,52.6
+"Descriptive Statistics","Jack",7,47.5
+"Descriptive Statistics","Jack",8,46.5
+"Descriptive Statistics","Jack",9,40.5
+"Descriptive Statistics","Jack",10,49.5
+"Descriptive Statistics","Jack",11,42.2
+"Descriptive Statistics","Jack",12,33.3
+"Descriptive Statistics","Katie",1,46.2
+"Descriptive Statistics","Katie",2,59.2
+"Descriptive Statistics","Katie",3,44.2
+"Descriptive Statistics","Katie",4,56.1
+"Descriptive Statistics","Katie",5,33.8
+"Descriptive Statistics","Katie",6,49.4
+"Descriptive Statistics","Katie",7,55.2
+"Descriptive Statistics","Katie",8,53
+"Descriptive Statistics","Katie",9,51.1
+"Descriptive Statistics","Katie",10,43.6
+"Descriptive Statistics","Katie",11,41.5
+"Descriptive Statistics","Katie",12,39.8
+"Calculus","Alice",1,61.2
+"Calculus","Alice",2,50.5
+"Calculus","Alice",3,55.1
+"Calculus","Alice",4,57.4
+"Calculus","Alice",5,78.4
+"Calculus","Alice",6,53.5
+"Calculus","Alice",7,62.4
+"Calculus","Alice",8,60.8
+"Calculus","Alice",9,50.4
+"Calculus","Alice",10,59.3
+"Calculus","Alice",11,74.4
+"Calculus","Alice",12,64.5
+"Calculus","Bob",1,60.4
+"Calculus","Bob",2,55.8
+"Calculus","Bob",3,39.5
+"Calculus","Bob",4,71.3
+"Calculus","Bob",5,45.4
+"Calculus","Bob",6,67.4
+"Calculus","Bob",7,79.1
+"Calculus","Bob",8,45.6
+"Calculus","Bob",9,67
+"Calculus","Bob",10,57.4
+"Calculus","Bob",11,44.3
+"Calculus","Bob",12,44.9
+"Calculus","Charlie",1,44
+"Calculus","Charlie",2,54.7
+"Calculus","Charlie",3,45.4
+"Calculus","Charlie",4,66.9
+"Calculus","Charlie",5,81
+"Calculus","Charlie",6,47.1
+"Calculus","Charlie",7,67.9
+"Calculus","Charlie",8,67.7
+"Calculus","Charlie",9,63.3
+"Calculus","Charlie",10,49.9
+"Calculus","Charlie",11,58.8
+"Calculus","Charlie",12,57.2
+"Calculus","David",1,65.6
+"Calculus","David",2,56.3
+"Calculus","David",3,69.8
+"Calculus","David",4,56.3
+"Calculus","David",5,70.5
+"Calculus","David",6,49.5
+"Calculus","David",7,47.4
+"Calculus","David",8,92.4
+"Calculus","David",9,55.8
+"Calculus","David",10,63
+"Calculus","David",11,66.4
+"Calculus","David",12,55.2
+"Calculus","Eve",1,65.2
+"Calculus","Eve",2,63.7
+"Calculus","Eve",3,57.8
+"Calculus","Eve",4,60.7
+"Calculus","Eve",5,59.7
+"Calculus","Eve",6,81.3
+"Calculus","Eve",7,52.6
+"Calculus","Eve",8,49
+"Calculus","Eve",9,60.4
+"Calculus","Eve",10,63.1
+"Calculus","Eve",11,64.4
+"Calculus","Eve",12,55.4
+"Calculus","Frank",1,49.4
+"Calculus","Frank",2,72.6
+"Calculus","Frank",3,56.5
+"Calculus","Frank",4,51.3
+"Calculus","Frank",5,57.6
+"Calculus","Frank",6,58
+"Calculus","Frank",7,71.1
+"Calculus","Frank",8,60.8
+"Calculus","Frank",9,67.5
+"Calculus","Frank",10,55
+"Calculus","Frank",11,62.1
+"Calculus","Frank",12,56.8
+"Calculus","Grace",1,60.9
+"Calculus","Grace",2,51
+"Calculus","Grace",3,46.9
+"Calculus","Grace",4,80
+"Calculus","Grace",5,66
+"Calculus","Grace",6,47.5
+"Calculus","Grace",7,53.9
+"Calculus","Grace",8,48.1
+"Calculus","Grace",9,82
+"Calculus","Grace",10,73.1
+"Calculus","Grace",11,57.3
+"Calculus","Grace",12,65.4
+"Calculus","Isaac",1,55.9
+"Calculus","Isaac",2,55.2
+"Calculus","Isaac",3,52.1
+"Calculus","Isaac",4,54.1
+"Calculus","Isaac",5,76.5
+"Calculus","Isaac",6,59.5
+"Calculus","Isaac",7,61.2
+"Calculus","Isaac",8,62.4
+"Calculus","Isaac",9,72.3
+"Calculus","Isaac",10,54.8
+"Calculus","Isaac",11,50.1
+"Calculus","Isaac",12,76.8
+"Calculus","Jack",1,55.6
+"Calculus","Jack",2,52.8
+"Calculus","Jack",3,47.6
+"Calculus","Jack",4,47.2
+"Calculus","Jack",5,54.3
+"Calculus","Jack",6,66.2
+"Calculus","Jack",7,71.1
+"Calculus","Jack",8,67.1
+"Calculus","Jack",9,56.4
+"Calculus","Jack",10,60.6
+"Calculus","Jack",11,53
+"Calculus","Jack",12,52.8
+"Calculus","Katie",1,68.8
+"Calculus","Katie",2,49.8
+"Calculus","Katie",3,79.6
+"Calculus","Katie",4,59.1
+"Calculus","Katie",5,62.1
+"Calculus","Katie",6,52.6
+"Calculus","Katie",7,54.3
+"Calculus","Katie",8,46.8
+"Calculus","Katie",9,58.2
+"Calculus","Katie",10,64.2
+"Calculus","Katie",11,63.2
+"Calculus","Katie",12,52.2
+"Mathematical Statistics","Alice",1,62.1
+"Mathematical Statistics","Alice",2,65
+"Mathematical Statistics","Alice",3,85
+"Mathematical Statistics","Alice",4,58.6
+"Mathematical Statistics","Alice",5,68.2
+"Mathematical Statistics","Alice",6,89
+"Mathematical Statistics","Alice",7,69
+"Mathematical Statistics","Alice",8,56.4
+"Mathematical Statistics","Alice",9,63.4
+"Mathematical Statistics","Alice",10,74.9
+"Mathematical Statistics","Alice",11,66.2
+"Mathematical Statistics","Alice",12,64.4
+"Mathematical Statistics","Bob",1,66.6
+"Mathematical Statistics","Bob",2,70.9
+"Mathematical Statistics","Bob",3,86
+"Mathematical Statistics","Bob",4,69.1
+"Mathematical Statistics","Bob",5,80.8
+"Mathematical Statistics","Bob",6,76.3
+"Mathematical Statistics","Bob",7,68.9
+"Mathematical Statistics","Bob",8,54.7
+"Mathematical Statistics","Bob",9,64.8
+"Mathematical Statistics","Bob",10,65.1
+"Mathematical Statistics","Bob",11,70.5
+"Mathematical Statistics","Bob",12,83
+"Mathematical Statistics","Charlie",1,92.9
+"Mathematical Statistics","Charlie",2,85.5
+"Mathematical Statistics","Charlie",3,68.7
+"Mathematical Statistics","Charlie",4,52.4
+"Mathematical Statistics","Charlie",5,66.1
+"Mathematical Statistics","Charlie",6,70.9
+"Mathematical Statistics","Charlie",7,78.5
+"Mathematical Statistics","Charlie",8,79.6
+"Mathematical Statistics","Charlie",9,76.8
+"Mathematical Statistics","Charlie",10,56
+"Mathematical Statistics","Charlie",11,78.5
+"Mathematical Statistics","Charlie",12,65.5
+"Mathematical Statistics","David",1,71.7
+"Mathematical Statistics","David",2,70.7
+"Mathematical Statistics","David",3,74.3
+"Mathematical Statistics","David",4,70.2
+"Mathematical Statistics","David",5,53.3
+"Mathematical Statistics","David",6,77.4
+"Mathematical Statistics","David",7,73.9
+"Mathematical Statistics","David",8,67.3
+"Mathematical Statistics","David",9,71.2
+"Mathematical Statistics","David",10,71.3
+"Mathematical Statistics","David",11,72.2
+"Mathematical Statistics","David",12,86.4
+"Mathematical Statistics","Eve",1,67.8
+"Mathematical Statistics","Eve",2,71.7
+"Mathematical Statistics","Eve",3,81.7
+"Mathematical Statistics","Eve",4,80.5
+"Mathematical Statistics","Eve",5,81.5
+"Mathematical Statistics","Eve",6,64.2
+"Mathematical Statistics","Eve",7,90
+"Mathematical Statistics","Eve",8,70.7
+"Mathematical Statistics","Eve",9,88.7
+"Mathematical Statistics","Eve",10,56.5
+"Mathematical Statistics","Eve",11,70.2
+"Mathematical Statistics","Eve",12,82.5
+"Mathematical Statistics","Frank",1,62.8
+"Mathematical Statistics","Frank",2,62.5
+"Mathematical Statistics","Frank",3,60.6
+"Mathematical Statistics","Frank",4,59.5
+"Mathematical Statistics","Frank",5,65.6
+"Mathematical Statistics","Frank",6,73.3
+"Mathematical Statistics","Frank",7,49.9
+"Mathematical Statistics","Frank",8,72.1
+"Mathematical Statistics","Frank",9,82.4
+"Mathematical Statistics","Frank",10,90.4
+"Mathematical Statistics","Frank",11,83
+"Mathematical Statistics","Frank",12,77.6
+"Mathematical Statistics","Grace",1,52.7
+"Mathematical Statistics","Grace",2,64
+"Mathematical Statistics","Grace",3,66.5
+"Mathematical Statistics","Grace",4,77
+"Mathematical Statistics","Grace",5,68.9
+"Mathematical Statistics","Grace",6,57.4
+"Mathematical Statistics","Grace",7,86.8
+"Mathematical Statistics","Grace",8,79.1
+"Mathematical Statistics","Grace",9,72.4
+"Mathematical Statistics","Grace",10,82.2
+"Mathematical Statistics","Grace",11,56.6
+"Mathematical Statistics","Grace",12,76.6
+"Mathematical Statistics","Isaac",1,64.8
+"Mathematical Statistics","Isaac",2,76.8
+"Mathematical Statistics","Isaac",3,69.4
+"Mathematical Statistics","Isaac",4,76.3
+"Mathematical Statistics","Isaac",5,83.4
+"Mathematical Statistics","Isaac",6,70.1
+"Mathematical Statistics","Isaac",7,80.2
+"Mathematical Statistics","Isaac",8,58.1
+"Mathematical Statistics","Isaac",9,62.8
+"Mathematical Statistics","Isaac",10,85.2
+"Mathematical Statistics","Isaac",11,73.8
+"Mathematical Statistics","Isaac",12,49.5
+"Mathematical Statistics","Jack",1,56.4
+"Mathematical Statistics","Jack",2,68
+"Mathematical Statistics","Jack",3,78.7
+"Mathematical Statistics","Jack",4,69
+"Mathematical Statistics","Jack",5,76.2
+"Mathematical Statistics","Jack",6,79.6
+"Mathematical Statistics","Jack",7,86.7
+"Mathematical Statistics","Jack",8,70.6
+"Mathematical Statistics","Jack",9,69.5
+"Mathematical Statistics","Jack",10,52.5
+"Mathematical Statistics","Jack",11,71
+"Mathematical Statistics","Jack",12,64.3
+"Mathematical Statistics","Katie",1,60.3
+"Mathematical Statistics","Katie",2,68.2
+"Mathematical Statistics","Katie",3,80.1
+"Mathematical Statistics","Katie",4,50.1
+"Mathematical Statistics","Katie",5,65.7
+"Mathematical Statistics","Katie",6,71.2
+"Mathematical Statistics","Katie",7,61.1
+"Mathematical Statistics","Katie",8,73.3
+"Mathematical Statistics","Katie",9,74.1
+"Mathematical Statistics","Katie",10,69.7
+"Mathematical Statistics","Katie",11,45.3
+"Mathematical Statistics","Katie",12,95.7
+"Data Analysis","Alice",1,77.9
+"Data Analysis","Alice",2,86.5
+"Data Analysis","Alice",3,82.7
+"Data Analysis","Alice",4,90.2
+"Data Analysis","Alice",5,88.2
+"Data Analysis","Alice",6,77.9
+"Data Analysis","Alice",7,83.8
+"Data Analysis","Alice",8,70.5
+"Data Analysis","Alice",9,88.6
+"Data Analysis","Alice",10,75.4
+"Data Analysis","Alice",11,104.2
+"Data Analysis","Alice",12,63.5
+"Data Analysis","Bob",1,75.4
+"Data Analysis","Bob",2,88.3
+"Data Analysis","Bob",3,85.1
+"Data Analysis","Bob",4,74.1
+"Data Analysis","Bob",5,70
+"Data Analysis","Bob",6,81.4
+"Data Analysis","Bob",7,79.9
+"Data Analysis","Bob",8,62.1
+"Data Analysis","Bob",9,80.3
+"Data Analysis","Bob",10,81.9
+"Data Analysis","Bob",11,81.7
+"Data Analysis","Bob",12,69.4
+"Data Analysis","Charlie",1,84.8
+"Data Analysis","Charlie",2,93.8
+"Data Analysis","Charlie",3,84.6
+"Data Analysis","Charlie",4,68.6
+"Data Analysis","Charlie",5,75.6
+"Data Analysis","Charlie",6,83.5
+"Data Analysis","Charlie",7,73.5
+"Data Analysis","Charlie",8,58.4
+"Data Analysis","Charlie",9,88.8
+"Data Analysis","Charlie",10,71.7
+"Data Analysis","Charlie",11,74.3
+"Data Analysis","Charlie",12,95
+"Data Analysis","David",1,72.3
+"Data Analysis","David",2,88.5
+"Data Analysis","David",3,67.4
+"Data Analysis","David",4,76.5
+"Data Analysis","David",5,79.3
+"Data Analysis","David",6,68.3
+"Data Analysis","David",7,73.7
+"Data Analysis","David",8,79.7
+"Data Analysis","David",9,86.7
+"Data Analysis","David",10,63.5
+"Data Analysis","David",11,76.5
+"Data Analysis","David",12,87.6
+"Data Analysis","Eve",1,74.6
+"Data Analysis","Eve",2,82.3
+"Data Analysis","Eve",3,84.9
+"Data Analysis","Eve",4,82.7
+"Data Analysis","Eve",5,86.5
+"Data Analysis","Eve",6,78.8
+"Data Analysis","Eve",7,75.9
+"Data Analysis","Eve",8,53.6
+"Data Analysis","Eve",9,79.1
+"Data Analysis","Eve",10,84.3
+"Data Analysis","Eve",11,85.4
+"Data Analysis","Eve",12,74.4
+"Data Analysis","Frank",1,97.8
+"Data Analysis","Frank",2,82.9
+"Data Analysis","Frank",3,81.3
+"Data Analysis","Frank",4,92.7
+"Data Analysis","Frank",5,72.8
+"Data Analysis","Frank",6,75.5
+"Data Analysis","Frank",7,104
+"Data Analysis","Frank",8,80.1
+"Data Analysis","Frank",9,96.3
+"Data Analysis","Frank",10,65.6
+"Data Analysis","Frank",11,78.1
+"Data Analysis","Frank",12,83.8
+"Data Analysis","Grace",1,83
+"Data Analysis","Grace",2,69.9
+"Data Analysis","Grace",3,80.2
+"Data Analysis","Grace",4,69.2
+"Data Analysis","Grace",5,87.1
+"Data Analysis","Grace",6,90.8
+"Data Analysis","Grace",7,57.8
+"Data Analysis","Grace",8,92.4
+"Data Analysis","Grace",9,67.6
+"Data Analysis","Grace",10,84.5
+"Data Analysis","Grace",11,86.6
+"Data Analysis","Grace",12,78
+"Data Analysis","Isaac",1,73.5
+"Data Analysis","Isaac",2,81.7
+"Data Analysis","Isaac",3,84.4
+"Data Analysis","Isaac",4,88.8
+"Data Analysis","Isaac",5,59.5
+"Data Analysis","Isaac",6,63.6
+"Data Analysis","Isaac",7,94.3
+"Data Analysis","Isaac",8,90.5
+"Data Analysis","Isaac",9,84.4
+"Data Analysis","Isaac",10,87.2
+"Data Analysis","Isaac",11,89.2
+"Data Analysis","Isaac",12,53.4
+"Data Analysis","Jack",1,91.1
+"Data Analysis","Jack",2,75.2
+"Data Analysis","Jack",3,82.3
+"Data Analysis","Jack",4,77
+"Data Analysis","Jack",5,88.7
+"Data Analysis","Jack",6,76.5
+"Data Analysis","Jack",7,85.2
+"Data Analysis","Jack",8,76.1
+"Data Analysis","Jack",9,69.1
+"Data Analysis","Jack",10,92.1
+"Data Analysis","Jack",11,87.4
+"Data Analysis","Jack",12,97.2
+"Data Analysis","Katie",1,80.7
+"Data Analysis","Katie",2,91.3
+"Data Analysis","Katie",3,99.8
+"Data Analysis","Katie",4,77.2
+"Data Analysis","Katie",5,66.8
+"Data Analysis","Katie",6,77.6
+"Data Analysis","Katie",7,77.9
+"Data Analysis","Katie",8,81.5
+"Data Analysis","Katie",9,97.1
+"Data Analysis","Katie",10,76.7
+"Data Analysis","Katie",11,83.7
+"Data Analysis","Katie",12,77.7
