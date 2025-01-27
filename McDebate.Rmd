@@ -1,0 +1,62 @@
+---
+title: "Untitled"
+author: "Karol Flisikowski"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{python}
+import pandas as pd
+import numpy as np
+```
+
+
+```{python}
+# Load the data from the CSV file
+url = "https://raw.githubusercontent.com/kflisikowski/ms/main/debate_opinions.csv"
+df = pd.read_csv(url)
+
+# Display the dataset
+print("Raw Dataset:")
+print(df.head(10))
+```
+
+In the TVP program The TVP Debates 100 people were surveyed regarding their opinion about capital punishment. 30 were in favor and 70 were against. They then listened to a debate about the subject and the survey was repeated. This time 35 voted in favor and 65 against. 11 changed their mind from against to in favor and 6 changed their mind from in favor to against. Did the debate affect people’s opinions? Assume 0,05 significance level.
+
+```{python}
+from statsmodels.stats.contingency_tables import mcnemar
+
+# Load the data from the CSV file
+df = pd.read_csv('debate_opinions.csv')
+
+# Display the first few rows of the data
+print("Raw Dataset:")
+print(df.head())
+
+# Create a contingency table
+contingency_table = pd.crosstab(df['Before_Debate'], df['After_Debate'])
+print("\nContingency Table:")
+print(contingency_table)
+```
+
+
+```{python}
+# Perform McNemar's test
+result = mcnemar(contingency_table, exact=True)
+
+# Print the results
+print("\nMcNemar's test result:")
+print(f"Statistic: {result.statistic}")
+print(f"P-value: {result.pvalue}")
+
+# Interpretation
+alpha = 0.05
+if result.pvalue < alpha:
+    print("The p-value is less than 0.05, indicating that the debate significantly affected people's opinions.")
+else:
+    print("The p-value is greater than 0.05, indicating that the debate did not significantly affect people's opinions.")
+```
+
+
+
+

@@ -1,0 +1,44 @@
+---
+title: "Untitled"
+author: "Karol Flisikowski"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{python}
+import pandas as pd
+import numpy as np
+```
+
+
+```{python}
+# Load the data from the CSV file
+url = "https://raw.githubusercontent.com/kflisikowski/ms/main/quiz_results.csv"
+df = pd.read_csv(url)
+
+# Display the first few rows of the data
+print("Raw Dataset:")
+print(df.head())
+```
+
+Let's assume we have a dataset of students who took two different quizzes (Quiz 1 and Quiz 2) and we want to see if there is a significant difference in their pass/fail status between the two quizzes. We can use McNemar's test to determine if there is a significant association between the two categorical variables.
+
+```{python}
+from statsmodels.stats.contingency_tables import mcnemar
+
+# Create a contingency table
+contingency_table = pd.crosstab(df['Quiz1'], df['Quiz2'])
+print("\nContingency Table:")
+print(contingency_table)
+
+# Perform McNemar's test
+result = mcnemar(contingency_table, exact=True)
+
+print(result)
+```
+
+Interpretation of the results:
+- The p-value is greater than 0.05, indicating that there is no significant difference in pass/fail status.
+
+
+

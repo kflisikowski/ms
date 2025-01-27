@@ -1,0 +1,58 @@
+---
+title: "Untitled"
+author: "Karol Flisikowski"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{python}
+import pandas as pd
+import numpy as np
+```
+
+```{python}
+# Load the data from the CSV file
+url = "https://raw.githubusercontent.com/kflisikowski/ms/main/couples_opinions.csv"
+df = pd.read_csv(url)
+
+# Display the first few rows of the data
+print("Raw Dataset:")
+print(df.head())
+```
+
+1,000 couples were surveyed regarding their opinion regarding criminal reform. Some of husbands were in favor and some against the proposition, while some of the wives voted in favor and against it. In some of the couples, the husband was in favor but the wife was against it. In some the wife was in favor but the husband was against it. Was there a significant difference between husbands and their wives about this reform? Assume 0.05 significance level.
+
+```{python}
+from statsmodels.stats.contingency_tables import mcnemar
+
+# Display the first few rows of the data
+print("Raw Dataset:")
+print(df.head())
+
+# Create a contingency table
+contingency_table = pd.crosstab(df['Husband_Opinion'], df['Wife_Opinion'])
+print("\nContingency Table:")
+print(contingency_table)
+```
+
+
+```{python}
+# Perform McNemar's test
+result = mcnemar(contingency_table, exact=True)
+
+# Print the results
+print("\nMcNemar's test result:")
+print(f"Statistic: {result.statistic}")
+print(f"P-value: {result.pvalue}")
+
+# Interpretation
+alpha = 0.05
+if result.pvalue < alpha:
+    print("The p-value is less than 0.05, indicating that there is a significant difference between husbands and their wives regarding criminal reform.")
+else:
+    print("The p-value is greater than 0.05, indicating that there is no significant difference between husbands and their wives regarding criminal reform.")
+```
+
+
+
+
