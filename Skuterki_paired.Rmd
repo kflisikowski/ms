@@ -1,0 +1,64 @@
+---
+title: "Untitled"
+author: "Karol Flisikowski"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{python}
+import pandas as pd
+import numpy as np
+```
+
+```{python}
+# Load the data from the CSV file
+url = "https://raw.githubusercontent.com/kflisikowski/ms/main/scooter_satisfaction2.csv"
+df = pd.read_csv(url)
+
+# Display the first few rows of the data
+print("Raw Dataset:")
+print(df.head())
+```
+
+Assume that you’re a market researcher and you want to compare experience of 2 groups of randomly selected people using two different scooter sharing service providers. Would you say that there is a significant difference in satisfaction score for two scooter car sharing service providers with alpha=0.05 level of significance?
+
+```{python}
+#test normality 
+from scipy.stats import shapiro
+stat, p = shapiro(df['Yamaha'])
+print('Statistics=%.3f, p=%.3f' % (stat, p))
+stat, p = shapiro(df['Suzuki'])
+print('Statistics=%.3f, p=%.3f' % (stat, p))
+```
+
+
+```{python}
+# check homogeneity of variance
+from scipy.stats import levene
+stat, p = levene(df['Yamaha'], df['Suzuki'])
+print('Statistics=%.3f, p=%.3f' % (stat, p))
+```
+
+
+
+```{python}
+from scipy.stats import ttest_rel
+# Perform a paired t-test
+t_stat, p_value = ttest_rel(df['Yamaha'], df['Suzuki'])
+
+# Print the results
+print("\nPaired T-Test result:")
+print(f"T-statistic: {t_stat}")
+print(f"P-value: {p_value}")
+
+# Interpretation
+alpha = 0.05
+if p_value < alpha:
+    print("The p-value is less than 0.05, indicating that there is a significant difference in satisfaction scores between Yamaha and Suzuki.")
+else:
+    print("The p-value is greater than 0.05, indicating that there is no significant difference in satisfaction scores between Yamaha and Suzuki.")
+```
+
+
+
+
