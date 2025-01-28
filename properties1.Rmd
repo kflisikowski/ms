@@ -1,0 +1,104 @@
+---
+title: "Untitled"
+author: "Karol Flisikowski"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{python}
+import pandas as pd
+import numpy as np
+```
+
+```{python}
+# Załaduj dane z pliku CSV
+url = "https://raw.githubusercontent.com/kflisikowski/analiza_danych_projekt_zespolowy/main/agencja_nieruchomosci/agencja_nieruchomosci.csv"
+df = pd.read_csv(url)
+df = df.dropna()
+# Wyświetlenie pierwszych kilku wierszy danych
+print("Surowe dane:")
+print(df.head())
+```
+
+Assume that you’re a real estate agent and you want to compare properties with and without guestroom. Would you say that there is a significant difference in prices for properties with and without guestroom? Assume 0.05 significance level.
+
+# Clean NA's
+
+```{python}
+# drop na's
+df = df.dropna()
+print(df.head())
+prices_with_guestroom = df[df['guestroom'] == 'yes']['price']
+prices_without_guestroom = df[df['guestroom'] == 'no']['price']
+```
+
+
+## Normality 
+
+```{python}
+from scipy.stats import shapiro
+
+# Calculate Shapiro test for the prices for properties with and without a guestroom:
+shapiro_with_guestroom = shapiro(df[df['guestroom'] == 'yes']['price'])
+shapiro_without_guestroom = shapiro(df[df['guestroom'] == 'no']['price'])
+print(shapiro_with_guestroom) 
+print(shapiro_without_guestroom)
+```
+
+# Homogeneity of variance
+
+```{python}
+from scipy.stats import levene
+levene_stat, levene_p = levene(prices_without_guestroom, prices_with_guestroom)
+    print("\nLevene's Test for Homogeneity of Variances:")
+    print(f"Statistic: {levene_stat}, P-value: {levene_p}")
+```
+
+
+```{python}
+from scipy.stats import f
+
+# Calculate the variances of the two groups
+var_with_guestroom = prices_with_guestroom.var()
+var_without_guestroom = prices_without_guestroom.var()
+var_without_guestroom > var_with_guestroom # TRUE!
+
+# Calculate the F-statistic
+f_stat = var_without_guestroom / var_with_guestroom
+
+# Calculate the degrees of freedom
+dfn = len(prices_without_guestroom) - 1  # degrees of freedom for the numerator
+dfd = len(prices_with_guestroom) - 1  # degrees of freedom for the denominator
+
+# Calculate the p-value
+p_value = 1 - f.cdf(f_stat, dfn, dfd)
+
+# Display the results of the F-test
+print("\nF-Test for Equality of Variances:")
+print(f"F-statistic: {f_stat}")
+print(f"P-value: {p_value}")
+print(f"Degrees of Freedom (numerator): {dfn}")
+print(f"Degrees of Freedom (denominator): {dfd}")
+```
+
+
+
+
+## Test 
+
+```{python}
+from scipy.stats import mannwhitneyu
+mannwhitneyu(prices_with_guestroom, prices_without_guestroom,alternative='greater')
+```
+
+```{python}
+# Interpretation of the results
+alpha = 0.05
+if p_value < alpha:
+    print("The p-value is less than 0.05, indicating a significant difference in prices between properties with and without a guestroom.")
+else:
+    print("The p-value is greater than 0.05, indicating no significant difference in prices between properties with and without a guestroom.")
+```
+
+
+

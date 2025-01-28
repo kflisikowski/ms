@@ -1,0 +1,59 @@
+---
+title: "Untitled"
+author: "Karol Flisikowski"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{python}
+import pandas as pd
+import numpy as np
+```
+
+```{python}
+# Załaduj dane z pliku CSV
+url = "https://raw.githubusercontent.com/kflisikowski/analiza_danych_projekt_zespolowy/main/agencja_nieruchomosci/agencja_nieruchomosci.csv"
+df = pd.read_csv(url)
+
+# Wyświetlenie pierwszych kilku wierszy danych
+print("Surowe dane:")
+print(df.head())
+```
+
+Assume that you’re a real estate agent and you want to compare properties with and without guestroom. Would you say that there is a significant difference in furnishing status for properties with and without guestroom? Assume 0.05 significance level.
+
+
+```{python}
+from scipy.stats import chi2_contingency
+# Utwórz tabelę kontyngencji
+contingency_table = pd.crosstab(df['guestroom'], df['furnishingstatus'])
+print("\nTabela kontyngencji:")
+print(contingency_table)
+```
+
+
+
+```{python}
+# Przeprowadź test chi-kwadrat
+chi2, p, dof, expected = chi2_contingency(contingency_table)
+
+# Wyświetlenie wyników testu chi-kwadrat
+print("\nTest chi-kwadrat:")
+print(f"Chi-kwadrat: {chi2}")
+print(f"P-wartość: {p}")
+print(f"Liczba stopni swobody: {dof}")
+print("Oczekiwane wartości:")
+print(expected)
+```
+
+```{python}
+# Step 4: Interpretation of the results
+alpha = 0.05
+if p < alpha:
+    print("The p-value is less than 0.05, indicating a significant difference in furnishing status between properties with and without a guestroom.")
+else:
+    print("The p-value is greater than 0.05, indicating no significant difference in furnishing status between properties with and without a guestroom.")
+```
+
+
+
